@@ -1,8 +1,8 @@
 cask "agent-orchestrator" do
-  version "1.6.0"
+  version "1.7.0"
 
   on_arm do
-    sha256 "540fce96447c0e4f7f225ab500871fda49a9cd167b09c2cf6521ee6e305d2894"
+    sha256 "adb59fa2d8aee0e4171a32a9adede25c07f28e82fccc4136c225a17eb66e7761"
     url "https://github.com/stantonSB/Agent-Orchestrator/releases/download/v#{version}/AgentOrchestrator-v#{version}-aarch64.dmg"
   end
 
