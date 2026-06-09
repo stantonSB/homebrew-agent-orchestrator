@@ -1,13 +1,13 @@
 cask "agent-orchestrator" do
-  version "1.9.6"
+  version "1.10.0"
 
   on_arm do
-    sha256 "f2209c295f5a89a4c880b975d2c8b52d1e9aca4e00e348111782600a5806e698"
+    sha256 "8bf69e4aeec0fc36d29f5fd102abe1b5931910a198528f10a9180f39a6790c6f"
     url "https://github.com/stantonSB/Agent-Orchestrator/releases/download/v#{version}/AgentOrchestrator-v#{version}-aarch64.dmg"
   end
 
   on_intel do
-    sha256 "343b4476112d8f8edc4406b1532deeb0afde1d3fc126b6b3a1df3aaabd39d8a9"
+    sha256 "e00c9b707646e3f908759555378c9c906cf4115c0552a2b2057695e9e7d7f7a5"
     url "https://github.com/stantonSB/Agent-Orchestrator/releases/download/v#{version}/AgentOrchestrator-v#{version}-x86_64.dmg"
   end
 
